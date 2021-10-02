@@ -1,0 +1,54 @@
+{
+	"info": {
+		"_postman_id": "839a44c4-3dee-4e1d-b0be-682d91fe5dd8",
+		"name": "encurtador-url",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Encurtar Link",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"originURL\": \"https://github.com/paulopitta97/encurtador-url\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/encurtar",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"encurtar"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Redirecionar Link",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:3000/zewglezNZ",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"zewglezNZ"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
